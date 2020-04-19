@@ -100,4 +100,12 @@ cursor: crosshair;
     .fidget-spinner {
       height: 50vh;
     }
+
+    .image {
+        filter: none;
+    }
+
+    .fidget-spinner-container {
+        height: 100%;
+    }
   }
