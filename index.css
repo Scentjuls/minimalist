@@ -67,9 +67,16 @@ li {
     font-size: 16px;
 }
 
-.twitter:hover {
-color: #00acee;
-cursor: crosshair;
+.twitter > a,
+.portfolio > a {
+    color: black
+}
+
+.twitter > a:hover,
+.portfolio > a:hover {
+    color: #00acee;
+    cursor: crosshair;
+    text-decoration: none;
 }
 
 .portfolio:hover {
